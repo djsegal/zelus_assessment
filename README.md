@@ -1,5 +1,5 @@
 # Zelus Sports Analytics Tech Assessment
-This repository contains the code and data for the technical assessment from Zelus Sports Analytics.
+This repository contains the code and data for the ML engineer technical assessment from Zelus Sports Analytics.
 
 ## Structure
 The repository is structured as follows:
@@ -11,6 +11,10 @@ The repository is structured as follows:
 - `run_model.sh`: Bash script used to filter the intermediate data for a specific team and number of overs, and to run `prediction_script.py`.
 - `requirements.txt`: File containing the Python dependencies required for `prediction_script.py`.
 - `Dockerfile`: Dockerfile used to build the Docker image for Question 4.
+
+Additional files include:
+- `Zelus_Written_Interview.pdf`: 8 answered questions from the first round interview spanning from work experience to research interests
+- `Dan_Segal_Julia_Packages_June_2023.pdf`: Slides for presentation on improving JuliaPackages.com categorization using the ChatGPT API
 
 ## Prerequisites
 You need to have Docker installed on your machine to build and run the Docker image for Question 4. You can download Docker from [here](https://www.docker.com/products/docker-desktop).
